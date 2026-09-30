@@ -4,6 +4,8 @@ Use a dedicated Mermail test mailbox. The events below are fictional and must no
 
 The [eight ready-to-send fixture messages](../assets/demo-emails.json) include explicit fictional registration confirmations, the partial updates below, and an unrelated adversarial message. Replace the same `<RUN_ID>` marker in every subject; fixture keys are local labels, never provider message IDs.
 
+An [observed live validation](live-validation.md) records the results and limits of the 30 September 2026 Codex/Mermail run. It is evidence for that controlled run, not a substitute for reproducing the workflow.
+
 ## Setup
 
 1. Create a Mermail account and a test mailbox, then connect your AI client to `https://console.mermail.app/mcp` using the [official setup documentation](https://docs.mermail.app/ai/skills). Keep keys and OAuth tokens out of chat, recordings and the repository. This skill needs mailbox reads; Agent Wallet and Google Calendar are unnecessary.
