@@ -11,7 +11,7 @@
     "start": "2026-10-06",
     "end": "2026-10-08"
   },
-  "delivery_instructions": "After authorisation, send all eight records in delivery_order to the chosen test mailbox using a real account controlled by the user. Replace <RUN_ID> consistently. Do not spoof From, Sender, Reply-To or other headers. Fictional organisers are described only in body_text. Record provider-assigned message IDs separately.",
+  "delivery_instructions": "After authorisation, send all eight records in delivery_order from a separate real account controlled by the user to the receiving Mermail test mailbox. Replace <RUN_ID> consistently. Send F01 first and verify its actual Inbox receipt and clean scan status before sending F02-F08; do not retry an uncertain delivery blindly or count a Sent copy as inbound evidence. Record all provider-assigned IDs and scan statuses separately. Report missing or held records; never waive scan requirements. Do not spoof From, Sender, Reply-To or other headers. Fictional organisers are described only in body_text.",
   "messages": [
     {
       "fixture_key": "F01",
